@@ -1,0 +1,27 @@
+.superhero-wrapper {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.superhero-images-container {
+  margin: 30px 0px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
+}
+
+.superhero-image {
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+}
+
+.superhero-info span {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+span.label {
+  font-weight: 700;
+}

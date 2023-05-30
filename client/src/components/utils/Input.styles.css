@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.input-wrapper {
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid brown;
+  border-radius: 10px;
+}
+
+input[type="text"]:focus {
+  border-width: 2px;
+}
+
+.input-title {
+  color: brown;
+}
+
+.input-required {
+  margin-left: 3px;
+  color: brown;
+}

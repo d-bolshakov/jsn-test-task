@@ -1,0 +1,32 @@
+.file-selector {
+  margin: 6px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: 2px solid brown;
+}
+
+.file-selector.disabled {
+  background-color: rgb(179, 80, 80);
+  border: 2px solid rgb(179, 80, 80);
+  cursor: default;
+}
+
+.file-selector:not(.disabled):hover {
+  background-color: white;
+  border: 2px solid brown;
+}
+
+.file-selector:not(.disabled):hover .file-selector-text {
+  color: brown;
+}
+
+.file-selector-text {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}

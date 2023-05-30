@@ -1,0 +1,56 @@
+.superhero-card {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  border: 3px solid rgba(255, 255, 255, 0);
+  border-radius: 10px;
+}
+
+.superhero-card-image-wrapper {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.superhero-card-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.superhero-card-nickname-wrapper {
+  background-color: brown;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.superhero-card-nickname {
+  color: white;
+  font-size: 24px;
+}
+
+.superhero-card:hover {
+  border-color: brown;
+}
+
+.superhero-card:hover .superhero-card-image {
+  scale: 1.2;
+  transition-duration: 0.5s;
+}
+
+.superhero-card:hover .superhero-card-nickname-wrapper {
+  background-color: white;
+}
+
+.superhero-card:hover .superhero-card-nickname {
+  color: brown;
+}

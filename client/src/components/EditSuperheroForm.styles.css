@@ -1,0 +1,22 @@
+.edit-superhero-form {
+  width: 100%;
+}
+
+.edit-superhero-form > h1 {
+  width: fit-content;
+  color: brown;
+  margin: 30px auto;
+}
+
+.edit-superhero-images-container {
+  column-count: 4;
+  column-gap: 10px;
+}
+
+.image-card-wrapper {
+  margin: 0 !important;
+  display: grid !important;
+  grid-template-rows: 1fr auto !important;
+  margin-bottom: 10px !important;
+  break-inside: avoid !important;
+}

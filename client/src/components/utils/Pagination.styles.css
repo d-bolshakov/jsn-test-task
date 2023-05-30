@@ -1,0 +1,10 @@
+.pagination {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.pagination-button {
+  width: 46%;
+  margin: 0px 2%;
+  display: inline-block;
+}

@@ -1,0 +1,12 @@
+.superheros-list-wrapper {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.loader-wrapper {
+  margin-top: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

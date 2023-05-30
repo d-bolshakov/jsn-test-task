@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.textarea-wrapper {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid brown;
+  border-radius: 10px;
+  resize: none;
+}
+
+textarea:focus {
+  border-width: 2px;
+}
+
+.textarea-title {
+  color: brown;
+}
+
+.textarea-required {
+  margin-left: 3px;
+  color: brown;
+}
